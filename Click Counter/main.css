@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to right, rgb(4, 133, 253), rgb(24, 240, 255), rgb(23, 255, 139));
+}
+
+.ctr {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(65, 65, 139, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-unselected {
+    font-size: 16px;
+    color: white;
+    border-radius: 10%;
+    background-color: black;
+}
+
+.nav-unselected:hover {
+    background-color: silver;
+    color: black;
+}
+
+.navbar-customized {
+    background-image: linear-gradient(20deg,rgba(0, 0, 0, 0.144),rgba(33, 28, 97, 0.514),rgb(125, 150, 35));
+    padding: 20px 50px 20px 50px;
+}
+
+.nav-selected {
+    background-image: linear-gradient(-45deg,rgb(0, 4, 255),cyan);
+    color: white;
+    border: 1px solid cyan;
+    border-radius:0;
+}
+
+
+.timer {
+    position: relative;
+    display: inline-block;
+    border-radius: 2%;
+    width: 20vw;
+    height: 15vh;
+    background-image: linear-gradient(45deg,navy,#7665);
+    color: white;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#secs {
+    border-radius: 20%;
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+    top: 15%;
+    font-size: 3vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#score {
+    border-radius: 20%;
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    left: 15%;
+    top: 15%;
+    font-size: 3vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.322);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#show-score {
+    position: relative;
+    display: inline-block;
+    width: 20vw;
+    height: 15vh;
+    background-image: linear-gradient(45deg,darkgreen,yellow);
+    color: white;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.secs-left {
+    position: absolute;
+    width:100%;
+    height: 30%;
+    bottom: -5%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.str-tm {
+    margin: auto;
+}
+
+.click-me {
+    font-size: 150%;
+    border: 4px solid red;
+    border-radius: 100%;
+    width: 18vw;
+    height: 18vw;
+    margin: auto;
+}
